@@ -1,0 +1,181 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#001818;
+    text-decoration: none;
+}
+/*-----Main Content-----*/
+.empty{
+    color:rgba(255, 255, 255, 0);
+}
+
+main {
+    background-color: #226666;
+    height: 85vh;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: #C5CECE;
+    height: 72px;
+} 
+#ImgOfMe{
+    border-radius: 50%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    box-shadow: 0px 0px 10px;
+    transition: all .2s ease-in-out;
+}
+/*---Text---*/
+.textBox{
+    margin: 50px;
+    padding: 80px;
+    background-color: #5B8D8D ;
+    box-shadow: 0px 0px 100px;
+    border-radius: 1000px;
+    transition: all .2s ease-in-out;
+}
+.textBox:hover{
+    transform: scale(1.01);
+}
+/*---*/
+
+.bildGalleri{
+    background-color: #5B8D8D;
+    border-radius: 25px;
+    transform: translate(0,-11.5%)
+}
+
+.bildGalleri img{
+    margin-left: 70px;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+}
+
+.projektBox{
+    background-color: #5B8D8D;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    transform: translate(0,-20%);
+}
+
+.projektBox img{
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+}
+
+.projektBox h2{
+    transform: translate(40%,-700%);
+}
+.projektBox p{
+    transform: translate(40%,-1000%);
+}
+
+#ImgOfMe:hover{
+    transform: scale(1.1,1.1);
+}
+.link img{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 70%;
+    box-shadow: 0px 0px 100px;
+    transition: all .2s ease-in-out;
+}
+
+.link:hover img{
+    transform: scale(1.05,1.05);
+}
+
+.link p{
+    left:-15%;
+    top:-200px;
+    text-align: center;
+    text-shadow: none;
+    position: relative;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    transition: all .2s ease-in-out;
+}
+.link:hover p{
+    font-size: 50px;
+    color:#9f9f9f;
+    text-shadow: 2px 2px black;
+}
+
+/*-------Grid System ------*/
+
+/*--Row--*/
+row:after{
+    clear: both;
+}
+/*--Col--*/
+.col{
+    float: left;
+    margin: 5% 1% 0.5% 1%;
+}
+.g1-of-2{
+    width: 48%;
+}
+
+.g1-of-5{
+    width: 18%;
+}
+.g2-of-5{
+    width: 38%;
+}
+.g3-of-5{
+    width: 58%;
+}
+.g4-of-5{
+    width: 78%;
+}
+.g5-of-5{
+    width: 98%;
+}
+/*-----NavBar-----*/
+
+#active {
+    color: #5a6c6c;
+}
+
+#GitHub{
+    margin-top: -5px;
+    float: right;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+#GitHub:hover{
+    transition: 0.4s;
+    background-color: #ededed;
+}
+
+nav ul {
+    background-color:#5B8D8D;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: #C5CECE;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    transition: 0.4s;
+    color: black;
+}
+
+
