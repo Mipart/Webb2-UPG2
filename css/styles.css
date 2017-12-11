@@ -29,7 +29,7 @@ footer{
     box-shadow: 0px 0px 10px;
     transition: all .2s ease-in-out;
 }
-/*---Text---*/
+/*---------Text---------*/
 .textBox{
     margin: 50px;
     padding: 80px;
@@ -43,6 +43,7 @@ footer{
 }
 /*---*/
 
+/*-----Css för mina projekt------*/
 .bildGalleri{
     background-color: #5B8D8D;
     border-radius: 25px;
@@ -78,6 +79,7 @@ footer{
     transform: translate(40%,-1000%);
 }
 
+/*-------Om mig------*/
 #ImgOfMe:hover{
     transform: scale(1.1,1.1);
 }
